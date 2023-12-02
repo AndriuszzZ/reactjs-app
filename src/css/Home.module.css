@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #161618;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    padding: 0px 10px; 
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: #28a745;
+    transition: color 0.4s;
+}
+
+.carousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.carousel-control-prev {
+    margin-left: -50px;
+}
+
+.carousel-control-next {
+    margin-right: -50px;
+}
+
+<<<<<<< HEAD
+=======
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-left: 310px;
+    color: white;
+}
+
+.home-story, .espacoParagrafo p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 310px;
+    margin-right: 300px;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #161618;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+>>>>>>> fe1be7d1a178a9ec60562917fe57006f4ce38714
